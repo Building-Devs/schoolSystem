@@ -1,13 +1,4 @@
-database = {
-    # "student_ID" : "student_name"
-
-    "102006": "Clinton Woods",
-    "102004": "John Fritz",
-    "102003": "Jenny Clarkson",
-    "102001": "Makaila Rodriguez",
-    "102002": "Rebecca Page",
-    "102005": "Luis Alvarez"
-}
+from database import database 
 
 # ---Response---
 prompt = input("Welcome to  Jenny Montessori student Database Management System. Please choose an option:\n"
